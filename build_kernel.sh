@@ -20,7 +20,7 @@ CONFIG_KSU=vendor/ksu.config
 fi
 
 if [ -z "$DEVICE" ]; then
-export DEVICE=a51
+export DEVICE=m21
 fi
 
 rm -rf out
